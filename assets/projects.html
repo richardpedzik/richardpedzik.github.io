@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<title>Richard Pedzik's Portfolio</title>
+</head>
+
+<body>	
+	<h1>My Projects</h1>
+	<div class="okay">
+		<ul>
+  			<li><a href="../index.html">Home</a></li>
+  			<li><a href="projects.html">My Projects</a></li>
+  			<li><a href="about.html"">About</a></li>
+		</ul>
+	</div>
+
+	<hr></hr>
+	<center><iframe id="flamingo" width="560" height="315" src="https://www.youtube.com/embed/ONTAw2Ikc08" frameborder="0" allowfullscreen></iframe></center>
+	<center><iframe id="flamingo" width="560" height="315" src="https://www.youtube.com/embed/q9nYSkrC2yM" frameborder="0" allowfullscreen></iframe></center>
+	<div><p>
+		This video me and my group filmed in sophmore year was one of my first experiences editing outside of video production. Not being held to a specific set of rules and boundaries allowed me to </p>
+
+	<iframe width="780" height="315" src="https://docs.google.com/document/d/1dFmt4kwE4JSu38tNXxohiZBv_vTFlbylZQnirnAoFD8/pub?embedded=true"></iframe>
+	<div><p>
+		This video me and my group filmed in sophmore year was one of my first experiences editing outside of video production. Not being held to a specific set of rules and boundaries allowed me to </p></center>
+
+	<iframe src="https://docs.google.com/document/d/1qmCcdQfQB1C8fG1Q0-y-AMO1WrwRvziONlMlDeztxcw/pub?embedded=true"></iframe>
+
+	<iframe src="https://docs.google.com/document/d/1rwKLivRZGCFA0AE53Pq3002acr86-dBv575yRrnxkP4/pub?embedded=true"></iframe>
+
+	<iframe src="https://docs.google.com/document/d/11sg10HPsBBEITFwO3Nip_GeIvoZKW5O7ismjx79HnNM/pub?embedded=true"></iframe>
+
+	<iframe src="https://docs.google.com/document/d/1ry8iPq1IZ10UnFpav-1nkmPJbl_B8JcdXLqhNNP30V4/pub?embedded=true"></iframe>
+
+	<iframe src="https://docs.google.com/document/d/1kF4_aa-O3uyBm4kcWCqQ-ykIPprrMSM7bEGyqGcTZA0/pub?embedded=true"></iframe>
+
+	<iframe class="winter" src="winter/index.html"></iframe>
+	
+	<video width="320" height="240" autoplay>
+  	<source src="textinganddrivving.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+
+	<center><img class="mySlides" src="imgs/connect.png" height="300px"></center>
+	<center><img class="mySlides" src="imgs/photoshop.png" height="300px"></center>
+
+
+				<a class="left" onclick="plusDivs(-1)">&#10094;</a>
+				<a class="right" onclick="plusDivs(+1)">&#10095;</a>
+
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+					  showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+					  var i;
+					  var x = document.getElementsByClassName("mySlides");
+					  if (n > x.length) {slideIndex = 1}    
+					  if (n < 1) {slideIndex = x.length}
+					  for (i = 0; i < x.length; i++) {
+					     x[i].style.display = "none";  
+					  }
+					  x[slideIndex-1].style.display = "block";  
+					}
+				</script>
+
+	</body>
+</html>
