@@ -60,10 +60,9 @@ div {
 }
 
 p.whitetxt {
-    margin-top: 2em;
+    margin-top: 0em;
     margin-left: 4em;
     margin-right: 4em;
-    padding: 4em 0em 4em 24em;
     color: #FDFDFD;
 }
 
@@ -71,10 +70,13 @@ p {
     font-size: 1em;    
     text-align: center;
     margin: 0 18% 0 18%;
+    padding: .5em 0em .5em 0em;
 }
 
 p.intro {
+    font-size: 1.1em;
     margin-top: 3em;
+    margin: 0em 15em 0em 15em;
 }
 
 h1 {
@@ -104,13 +106,10 @@ div.bottom {
     right: 0;
     margin-top: 4em;
     position: relative;
+    padding: 2em 0em 1em 0em;
 }
 
-h2.whitetxt {
-    margin-top: 0em;
-    margin-left: 18.5em;
-    margin-right: 4em;
-    margin-bottom: 0em;
+h2.whitetext {
     color: #FDFDFD;
 
 }
@@ -165,6 +164,7 @@ iframe#winter {
 }
 
 iframe {
+    align-self: center;
     margin-top: 1em;
     margin-bottom: 3em;
     width: 716px;
@@ -180,6 +180,9 @@ img {
     border-width: 3px;
     border-color: #6699CC;
 
+}
+p.botboys {
+padding-bottom: 3em; 
 }
 
 
